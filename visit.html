@@ -1,53 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link href="./css/style.css" type="text/css" rel="stylesheet" >
-</head>
-<body>
+    <link href="./css/style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     
+
+
+</head>
+
+<body>
+
     <div class="navbar-container">
-        <!---
-    <ul class="navbar-container">
-    <li >
-        <li> <a href="#">Nepal Tour</a></li>
-        <ul class="dropdown">
-        <li> <a href="#">Kathmandu tour</a></li>
-      <li><a href="#">Pokhara Tour</a></li>
-        <li><a href="#">RARA Tour</a></li>
 
+        <ul>
+            <li><a href="#">NEPAL TOUR</a>
+                <ul class="dropdown">
+                    <li><a href="#">KTM TOUR</a></li>
+                    <li><a href="#">Pokhara Tour</a></li>
+                    <li><a href="#">world Tour</a></li>
+                    <li><a href="#">Purba Tour</a></li>
+                    <li><a href="#">Paschim Tour</a></li>
+
+                </ul>
+
+            </li>
+
+            <li><a href="TREKKING">TREKKING</a>
+                <ul class="dropdown">
+                    <li><a href="#">Ghorepani Poon Hill</a></li>
+                    <li><a href="#">Annapurna Base camp</a></li>
+                    <li><a href="#">Annapurna Circuit</a></li>
+                    <li><a href="#">Ghandruk Village</a></li>
+                    <li><a href="#">Everest View Trek</a></li>
+                    <li><a href="#">Everest Gokyo Cho la Pass</a></li>
+                    <li><a href="#">Sarankot Trek</a></li>
+                </ul>
+
+            </li>
+
+
+            <li><a href="SMALL GROUP TOURS">SMALL GROUP TOURS</a>
+
+                <ul class="dropdown">
+                    <li><a href="#">Nepal Round Trip</a></li>
+                    <li><a href="#">Bhutan Cultural Trip</a></li>
+                    <li><a href="#">Nepal And Lhasa Tour</a></li>
+                    <li><a href="#">WildLife Safari and Rafting</a></li>
+                    <li><a href="#">ABC trek</a></li>
+                    <li><a href="#">Bhutan Tour</a></li>
+
+                </ul>
+            </li>
+
+            <li><a href="TIBET">TIBET</a>
+                <ul class="dropdown">
+                    <li><a href="#">Yandrok Tour</a></li>
+                    <li><a href="#">Namtso Trip</a></li>
+                    <li><a href="#">Kailash Tour</a></li>
+                    <li><a href="#">EBC Overland Tour</a></li>
+                </ul>
+
+            </li>
+            <li><a href="BHUTAN">BHUTAN</a>
+                <ul class="dropdown">
+                    <li><a href="#">Glimpse of Bhutan</a></li>
+                    <li><a href="#">Magical Bhutan</a></li>
+                    <li><a href="#">western Bhutan</a></li>
+                    <li><a href="#">Central Bhutan</a></li>
+
+
+                </ul>
+            </li>
+
+
+            <li><a href="MULTI COUNTRY">MULTI COUNTRY</a>
+                <ul class="dropdown">
+                    <li><a href="#">Nepal Tibet Tour</a></li>
+                    <li><a href="#">Nepal bhutan tour</a></li>
+                    <li><a href="#">Nepal And Lhasa Tour</a></li>
+                    <li><a href="#">WildLife Safari and Rafting</a></li>
+                    <li><a href="#">Indian-Nepal Tour</a></li>
+                    <li><a href="#">Nep-Bangla Tour</a></li>
+
+                </ul>
+
+            </li>
+            <li><a href="ACTIVITIES">ACTIVITIES</a>
+                <ul class="dropdown">
+                    <li><a href="#">Mountain flight</a></li>
+                    <li><a href="#">White Water Rafting</a></li>
+                    <li><a href="#">Paragliding </a></li>
+                    <li><a href="#">Ultra flight</a></li>
+                    <li><a href="#">Bungee jumping </a></li>
+                    <li><a href="#">Helicopter tour</a></li>
+
+                </ul>
+            </li>
+            <li><a href="Travel Guide">Travel guide</a>
+                <ul class="dropdown">
+                    <li><a href="#">About Nepal</a></li>
+                    <li><a href="#">Nepal-Visa information</a></li>
+                    <li><a href="#">Tibet Travel visa </a></li>
+                    <li><a href="#">Bhutan Travel visa </a></li>
+
+
+                </ul>
+            </li>
         </ul>
-    -->
-    <ul>
-        <li><a href="#">Nepal Tour</a>
-        <ul class="dropdown">
-        <li><a href="#">KTM TOUR</a></li>
-        <li><a href="#">Pokhara Tour</a></li>
-        </ul>
-        
-        </li>
-
-    <li><a href="TREKKING">TREKKING</a><li> 
-    <li><a href="SMALL GROUP TOURS">SMALL GROUP TOURS</a></li>
-    <li><a href="TIBET">TIBET</a></li>
-    <li><a href="BHUTAN">BHUTAN</a></li>
-    <li><a href="MULTI COUNTRY">MULTI COUNTRY</a></li>
-    <li><a href="ACTIVITIES">ACTIVITIES</a></li>
 
 
-    </ul>
 
     </div>
-</div>
-   <div class="slider">
-</div>
-   <div class="navigate-menu">
 
-   </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./images/abc 3.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>VISIT EAST NEPAL</h5>
+              <p>Heaven is Myth,Nepal is real</p>
+            </div>
+        </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/abc1.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>VISIT WEST-NEPAL</h5>
+              <p>Experience rich culture and history</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/abc2.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>VISIT POKHARA VALLEY</h5>
+              <p>City of lakes</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+     
+
+      <div class="cards">
+          <h1> Friendship Nepal Tours and Travels</h1>
+          <p>FTAS tours is a fully licensed  fully licensed and registered travel agency / company in Nepal and recognized by the tourism authority of the Government of Nepal, Nepal Association of Tour & Travel Agent (NATTA) and Nepal Tourism Board (NTB) as providing comprehensive Travel Package for leisure, Group, Charters & small-business traveler, backed by real-time Website & unmatched products.
+
+            Since its beginning in 2003, we have been growing at a fast pace aspiring to emerge as one of the leading travel company in Nepal. The very fact that we are a young company, we are open to new ideas, flexible & adaptable to our clients needs.
+            
+            The organization is headed & professionally managed by people having vast experience in hospitality business. With our central locatio</p>
+          
+      </div>
+      <button type="button" class="btn btn-primary">More</button>
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="./images/abc1.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">POKHARA TOUR</h5>
+            <p class="card-text">Pokhara (Nepali: पोखरा) is a metropolitan city in Nepal, which serves as the capital of Gandaki Pradesh.[1] It is the country's second largest city in terms of both population and area. The city also serves as the headquarters of Kaski District</p>
+            <h5>US$1000 </h5>
+            <p class="card-text"><small class="text-muted">15 days</small></p>
+            <button type="button" class="btn btn-primary">View package</button>
+        </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="./images/abc2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h1 class="card-title">EAST NEPAL TOUR</h1>
+            <h5>US$2000 </h5>
+            <p class="card-text"><small class="text-muted">10 days</small></p>
+            <p class="card-text">The Eastern Development Region (Nepali: पुर्वाञ्चल विकास क्षेत्र, Purwānchal Bikās Kshetra) was one of Nepal's five development regions. It is also known as Kirata region.[1] It was located at the eastern end of the country with its headquarters at Dhankuta. The town of Dhankuta was the headquarter of the Eastern Region, as well as the headquarter </p>
+            <p class="card-text"><small class="text-muted">10 days</small></p>
+            <button type="button" class="btn btn-primary">View package</button>
+        </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="./images/abc 3.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h1 class="card-title">WEST NEPAL TOUR</h1>
+            <p class="card-text">The Western Development Region (Nepali: पश्चिमाञ्चल विकास क्षेत्र, Pashchimānchal Bikās Kshetra) was one of Nepal's five development regions. It was located in the west-central part of the country, with its headquarters located in Pokhara. This Development Region was divided into three parts, from south to north in order of increasing altitude: Terai, Hilly and Himalayan. Mustang, Damodar, Peri, Thaple, Ganesh are among the major ranges</p>
+           <h5>US$510 </h5>
+            <p class="card-text"><small class="text-muted">7 days</small></p>
+            <button type="button" class="btn btn-primary">View package</button> 
+        </div>
+        
+        </div>
+      </div>
+      <footer id="footer" class="footer-1">
+        <div class="main-footer widgets-dark typo-light">
+        <div class="container">
+        <div class="row">
+          
+        <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="widget subscribe no-box">
+        <h2 class="widget-title">Friendship Tours and Travel<span></span></h2>
+        
+        <p>Travel with spirit  </p>
+        </div>
+        </div>
+        
+      
+        
+        <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="widget no-box">
+        <h5 class="widget-title">Get Started<span></span></h5>
+        <p>Book your Holiday Tour </p>
+        <a class="btn" href="#." target="_blank">Register Now</a>
+        </div>
+        </div>
+        <div class="col-md-4 col-xl-3">
+          <h5>Links</h5>
+          
+            <li><a href="#">About</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">Pricing</a></li>
+      
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+        
+        <div class="widget no-box">
+        <h5 class="widget-title">Contact Us<span></span></h5>
+        
+        <h5>Email:Friendsip22@gmail.com</h5>
+        <h5>Contact: +9779853920243</h5>
+       
+        </div>
+        </div>
+        
+        </div>
+        </div>
+        </div>
+          
+        <div class="footer-copyright">
+        <div class="container">
+        <div class="row">
+        <div class="col-md-12 text-center">
+        <p>Friendhship Travel and tours © 2015. All rights reserved.</p>
+        </div>
+        </div>
+        </div>
+        </div>
+        </footer>
 
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
 </body>
+
 </html>
